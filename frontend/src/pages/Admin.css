@@ -1,0 +1,16 @@
+.tabs { display: flex; gap: .5rem; margin: 1rem 0; flex-wrap: wrap; }
+.tabs button { font: 600 1rem "Public Sans", sans-serif; padding: .5rem 1rem; border: 2px solid var(--ink);
+  background: var(--white); color: var(--ink); border-radius: 8px; cursor: pointer; }
+.tabs button.on { background: var(--mark); }
+.admin-top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.table-box { overflow-x: auto; background: var(--white); border: 2px solid var(--ink); border-radius: 10px; }
+.table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.table th, .table td { text-align: left; padding: .6rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.table th { background: #e6eefb; }
+.btn.danger { background: var(--bad); border-color: var(--bad); }
+.btn.danger:hover { background: #8c1c16; border-color: #8c1c16; }
+.course-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .8rem; margin-bottom: 1.2rem; }
+.course-form .full { grid-column: 1 / -1; }
+
+.actions { white-space: nowrap; }
+.actions .btn { margin-right: .4rem; }
